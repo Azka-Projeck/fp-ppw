@@ -400,6 +400,12 @@ footer .tim .sosmed a:hover {
 
 .music .gambar img {
   width: 80px;
+  cursor: pointer;
+}
+
+.music .gambar img:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4) );
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
 }
 
 .music .audio audio {
